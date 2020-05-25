@@ -77,7 +77,7 @@
 
 
 #p01 {
-  font: 85% Cabin Sketch, cursive; 
+  font: 90% Cabin Sketch, cursive; 
   white-space: nowrap;
   display: inline-block;
   text-align: center;
@@ -87,7 +87,7 @@
 
 
 #p01.typing {
-  width: calc(var(--length) * 0.75ch);
+  width: calc(var(--length) * 0.90ch);
   border-right: 2px solid;
   overflow: hidden;
   animation: typing calc(var(--length) * .1s) steps(var(--length)), caret .2s step-end infinite alternate;
